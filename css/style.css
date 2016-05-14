@@ -1,0 +1,253 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* { margin: 0; padding: 0; }
+
+img { max-width:100%; }
+
+body, html{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	text-align: center;
+	background: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a{ text-decoration: none; } 
+
+header{
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	background: #f9a600;
+	border-bottom: 2px solid #6C7A89;
+	color: #FFF;
+}
+
+section{
+	position: relative;
+	width: 100%;
+	height: auto;
+	min-height: 100%;
+	margin-top: 0px;
+	background: #6ba499;
+}
+
+footer{
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+	background: #333;
+	color: #fff;
+}
+
+
+/* Mobile Portrait Size to Mobile Landscape Size */
+@media only screen and (max-width: 479px) {
+header{
+		display: none;
+	}
+	.js #menu {
+		display:none;
+	}
+	
+	.js .slicknav_menu {
+		display:block;
+	}	
+	.navigation li:hover{
+		background: #999;
+	}
+	.slicknav_menu {
+		display: none;
+	}
+
+		#content{
+			position: relative;
+			width: 100%;
+			height: auto;
+			margin: 0 auto;
+		}
+		.topo{
+			position: relative;
+			width: 100%;
+			height: 50px;
+			background: #4c726b;
+		}
+		.topo h2{
+			position: absolute;
+			top: 15px;
+			left: 20px;
+			color: #FFF;
+			font-size: 1.2em;
+		}
+			
+			
+			
+		.box_home{
+			position: relative;
+			width: 98%;
+			height: auto;
+			padding: 0px;
+			margin-top: 0px;
+			background: #CCC;
+		}
+			.image{
+				position: relative;
+				width: 100%;
+				margin-top: 30px;
+				background: #039;
+			}
+			
+			
+	
+		.box_receita{
+			position: relative;
+			width: 95%;
+			height: 200px;
+			margin: 0 auto;
+			margin-top: 10px;
+			margin-bottom: 0px;
+			background: #FFF;
+		}
+			.box_receita img{
+				position: relative;
+				width: 50%;
+				height: 200px;
+				float: left;
+				left: 0px;
+			}
+			.box_receita h4{
+				position: relative;
+				color: #4c726b;
+				text-align: left;
+				left: 10px;
+			}
+			.box_receita p{
+				position: relative;
+				float: right;
+				width: 45%;
+				min-width: 20%;
+				right: 10px;
+				top: 10px;
+				text-align: left;
+				background: #FF8;
+			}
+	
+		.episodio{
+			position: relative;
+			width: 98%;
+			height: auto;
+			padding: 0px;
+			margin-top: 30px;
+			background: #CCC;
+			border-bottom: 2px solid #FFF;
+		}
+			.episodio img{
+				position: relative;
+				width: 100%;
+				height: 200px;
+			}
+			.title_video{
+				position: relative;
+				width: 100%;
+				height: auto;
+				background: #FFF;
+			}
+				.title_video h3{
+					position: relative;
+					padding: 10px 10px 0px 10px;
+					text-align: left;
+				}
+			.sinopse{
+				position: relative;
+				width: 100%;
+				margin: 0 auto;
+				text-align: justify;
+				font-size: 0.8em;
+				background: #FFF
+			}
+				.sinopse p{
+					padding: 10px;
+				}
+			
+	
+	
+	
+	.estabelecimentos{
+		position: relative;
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+	}
+		.estabelecimentos h2{
+			position: relative;
+			top: 10px;
+		}
+		.lugar{
+			position: relative;
+			width: 98%;
+			height: auto;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			background: #FFF;
+			text-align: left;
+		}
+		.lugar p{
+			position: relative;
+			margin-left: 10px;
+			line-height: 30px;
+		}
+	
+	.footer_links{
+		position: relative;
+		width: 100%;
+		height: 100px;
+		line-height: 100px;
+		background: #333;
+	}
+}
+
+
+/* Mobile Landscape Size to Tablet Portrait */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+header{
+		display: none;
+	}
+	.js #menu {
+		display:none;
+	}
+	
+	.js .slicknav_menu {
+		display:block;
+	}	
+	.navigation li:hover{
+		background: #999;
+	}
+	.slicknav_menu {
+		display: none;
+	}	
+}
+
+
+/* Tablet Portrait */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+header{
+		display: none;
+	}
+	.js #menu {
+		display:none;
+	}
+	
+	.js .slicknav_menu {
+		display:block;
+	}	
+	.navigation li:hover{
+		background: #999;
+	}
+	.slicknav_menu {
+		display: none;
+	}
+}
